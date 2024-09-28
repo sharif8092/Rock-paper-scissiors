@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elegant Rock Paper Scissors</title>
+    <link rel="stylesheet" href="rock-paper-scissors.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Rock Paper Scissors</h1>
+        <div class="choices">
+            <div>
+                <button onclick="play('rock')">✊</button>
+                <span class="choice-label">Rock</span>
+            </div>
+            <div>
+                <button onclick="play('paper')">✋</button>
+                <span class="choice-label">Paper</span>
+            </div>
+            <div>
+                <button onclick="play('scissors')">✌️</button>
+                <span class="choice-label">Scissors</span>
+            </div>
+        </div>
+        <div id="result">Choose your move!</div>
+        <div id="score">Player: 0 | Computer: 0</div>
+    </div>
+    <script src="rock-paper-scissors.js"></script>
+</body>
+</html>
